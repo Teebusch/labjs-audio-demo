@@ -22,6 +22,8 @@ A demo of this experiment is available online at [labjs-audio-demo.netlify.app](
 
 Download <a href="https://raw.githubusercontent.com/Teebusch/labjs-audio-demo/main/labjs-audio-recording-demo.study.json" download>labjs-audio-recording-demo.study.json</a>, import into lab.js and run it.
 
+In the `process` folder there is a simple R script that will extract the audio data from the csv.
+
 
 ## Gotcha's
 
