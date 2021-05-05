@@ -25,6 +25,10 @@ Download <a href="https://raw.githubusercontent.com/Teebusch/labjs-audio-demo/ma
 In the `process` folder there is a simple R script that will extract the audio data from the csv.
 
 
+## Known Issues
+
+- Works in Chrome but not in Firefox 😕
+
 ## Gotcha's
 
 - The Base64 string cannot be directly decoded as Base64 without first removing the Data-URL declaration preceding the Base64-encoded data. That is, remove the following part from the string: `data:audio/ogg; codecs=opus;base64,`. 
