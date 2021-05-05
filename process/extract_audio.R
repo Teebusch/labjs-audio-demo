@@ -32,7 +32,8 @@ extract_audio <- function(f) {
 base64_to_file <- function(x, filename) {
   f <- file(filename, "wb")
   base64decode(x, output = f)
+  close(f)
 }
 
 
-extract_audio("example_data.csv")
+extract_audio("example-data.csv")
