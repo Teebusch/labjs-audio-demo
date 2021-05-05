@@ -27,7 +27,7 @@ In the `process` folder there is a simple R script that will extract the audio d
 
 ## Known Issues
 
-- Works in Chrome but not in Firefox 😕
+- May not work correctly if other browsers / browser windows are accessing the WebAudio API (recording or playing sound) at the same time.
 
 ## Gotcha's
 
